@@ -6,3 +6,5 @@ while qwe:
     if ask % div == 0:
         qwe = False
 print(div)
+
+# зачтено
