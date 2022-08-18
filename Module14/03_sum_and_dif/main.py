@@ -17,4 +17,4 @@ print(search_summ(ask))
 print(search_num(ask))
 print(search_summ(ask) - search_num(ask))
 
-# Во-первых, опять принты и инпуты без информации. Во вторых, разность суммы и количества цифр не выводится.
+# зачтено
