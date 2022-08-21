@@ -8,3 +8,5 @@ for letter in word:
     if count == 1:
         unique += 1
 print('Кол-во уникальных букв:', unique)
+
+# зачтено
