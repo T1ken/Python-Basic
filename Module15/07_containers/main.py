@@ -24,3 +24,5 @@ for i in range(n):
     if X >= a[i]:
         print(i + 1)
         break
+
+# зачтено

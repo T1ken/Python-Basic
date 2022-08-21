@@ -7,3 +7,5 @@ print('Изначальный список:', task)
 shift = int(input('Сдвиг: '))
 task = task[-shift:] + task[:-shift]
 print('Сдвинутый список:', task)
+
+# зачтено

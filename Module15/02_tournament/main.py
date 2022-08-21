@@ -6,3 +6,5 @@ for i in name:
         a.append(name[s])
     s += 1
 print(a)
+
+# зачтено

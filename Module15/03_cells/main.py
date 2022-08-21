@@ -12,3 +12,5 @@ for q in asd:
 zxc = str(zxc)
 not_num = ''.join(zxc)
 print('Неподходящие числа ', not_num)
+
+# зачтено

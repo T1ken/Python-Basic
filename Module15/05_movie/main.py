@@ -11,3 +11,5 @@ for i in range(1, films_number + 1):
         favourites_films.append(movie)
 favourites_films = ''.join(favourites_films)
 print('Список любимых фильмов:', favourites_films)
+
+# зачтено
