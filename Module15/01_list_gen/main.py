@@ -1,4 +1,4 @@
-i = 1
+i = -1
 asd = []
 num = int(input())
 while i < num:
