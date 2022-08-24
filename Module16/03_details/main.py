@@ -6,3 +6,4 @@ name = input('Название детали: ').lower()
 prices = [product[1] for product in shop if product[0] == name]
 print(f'Кол-во деталей - {len(prices)}\nОбщая стоимость - {sum(prices)}')
 # я хз как я это сделал, оказывается можно настолько дофига делать внутри списка
+# зачтено
