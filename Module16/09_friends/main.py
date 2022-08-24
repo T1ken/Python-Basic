@@ -14,3 +14,5 @@ for number in range(receipt):
 print(f'Баланс друзей:')
 for index in range(len(friends_list)):
     print(f'{index + 1} : {friends_list[index]}')
+
+# зачтено

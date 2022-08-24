@@ -6,3 +6,5 @@ for _ in range(len(lst_one)):
         if lst_one.count(i) > 1:
             lst_one.remove(i)
 print(lst_one)
+
+# Сказано же: условные операторы использовать нельзя

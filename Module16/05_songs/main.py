@@ -19,3 +19,6 @@ for i in range(count):
     all_time += violator_songs.get(song_name, 0)
 
 print(f'Общее время звучания песен: {round(all_time, 2)} минут')
+
+# зачтено
+# P.S. молодец, что сделал через словари. Они реально лучше подходят для этого задания.

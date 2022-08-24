@@ -6,3 +6,5 @@ for i_cur in range(len(class_1) - 1):
         if class_1[i] > class_1[i + 1]:
             class_1[i], class_1[i + 1] = class_1[i + 1], class_1[i]
 print('Отсортированный список учеников:', class_1)
+
+# зачтено

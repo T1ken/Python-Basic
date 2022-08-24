@@ -10,3 +10,5 @@ a.extend(c)
 count_three = a.count(3)
 print('Кол-во цифр 3 при втором объединении:', count_three)
 print('Итоговый список:', a)
+
+# зачтено

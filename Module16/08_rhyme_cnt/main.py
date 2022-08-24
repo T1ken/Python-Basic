@@ -11,3 +11,5 @@ for _ in range(people - 1):
     print('Выбывает человек под номером', people_list[out])
     people_list.remove(people_list[out])
 print(f'Остался человек под номером {people_list}')
+
+# зачтено

@@ -18,3 +18,6 @@ while sleep:
         if ask == 'ушел':
             print(f'Пока {name}')
             guests.remove(name)
+
+# зачтено
+# P.S. 14 строчка топ
