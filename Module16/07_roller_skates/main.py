@@ -11,6 +11,7 @@ for a in range(1, ask_man + 1):
     qwe.append(ask_man_num)
 for qw in qwe:
     if qw in asd:
+        asd.remove(qw)
         num += 1
 print(f'Наибольшее кол-во людей, которые могут взять ролики: {num}')
 
