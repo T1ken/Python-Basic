@@ -13,3 +13,5 @@ battle = [(fst_team[i] if fst_team[i] > sec_team[i] else sec_team[i]) for i in r
 print('Первая команда:', fst_team)
 print('Вторая команда:', sec_team)
 print('Победители тура:', battle)
+
+# зачтено

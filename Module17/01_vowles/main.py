@@ -5,3 +5,5 @@ for i in text:
     if i in all_vowels:
         vowels.append(i)
 print(vowels)
+
+# Не выводится длина, но ок, зачтено

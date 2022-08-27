@@ -20,3 +20,5 @@ for symbol in text:
     else:
         encrypted_string += symbol
 print(encrypted_string)
+
+# зачтено

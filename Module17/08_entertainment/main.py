@@ -6,3 +6,5 @@ for i in range(1, stick_run + 1):
     for zxc in range(ask - 1, ask2):
         stick[zxc] = '.'
 print(f'Результат: {"".join(stick)}')
+
+# зачтено
