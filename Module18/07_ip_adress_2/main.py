@@ -14,3 +14,5 @@ for x in split_ip:
         print(x, '- это не целое число')
 if out_of_range == 0 and numeric == 4:
     print('IP-адрес корректен.')
+
+# зачтено

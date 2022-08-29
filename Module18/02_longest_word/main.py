@@ -7,3 +7,5 @@ for word in text:
         max_word = word
 print('Самое длинное слово:', max_word)
 print('Длина этого слова:', max_len)
+
+# зачтено

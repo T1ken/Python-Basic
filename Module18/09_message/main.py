@@ -19,3 +19,5 @@ for word in text:
     word_back += reverse_word(word_part)
     result.append(word_back)
 print('Новое сообщение:', *result, sep=' ')
+
+# зачтено

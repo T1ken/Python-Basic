@@ -11,3 +11,5 @@ if str_len > 0:
             counter += 1
         result += curr_char + str(counter)
 print(result)
+
+# зачтено
