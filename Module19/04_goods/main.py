@@ -23,3 +23,12 @@ store = {
         {'quantity': 43, 'price': 97},
     ],
 }
+for product_name, product_code in goods.items():
+    item_total_quantity = 0
+    item_total_cost = 0
+    for product in store[product_code]:
+        item_quantity = product['quantity']
+        item_cost = product['price']
+        item_total_cost += item_quantity * item_cost
+        item_total_quantity += item_quantity
+    print(f'{product_name} - {item_total_quantity} шт, общая стоимость {item_total_cost} рублей')

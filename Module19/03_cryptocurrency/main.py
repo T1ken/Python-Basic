@@ -43,3 +43,23 @@ data = {
         }
     ]
 }
+
+print(data.keys())
+print(data.keys())  # 1
+
+total = {'total_diff': 100}
+data['ETH'].update(total)  # 2
+print(data['ETH'])
+
+data['tokens'][0]['fst_token_info']['name'] = 'doge'
+print(data['tokens'])  # 3
+
+total_out = 0
+for i_value in data['tokens']:
+    total_out += i_value.pop('total_out')
+    data['ETH']['total_out'] = total_out
+print(data['ETH'])  # 4
+
+old_price = data['tokens'][1]['sec_token_info'].pop('price')
+data['tokens'][1]['sec_token_info']['total_price'] = old_price
+print(data)   # 5
