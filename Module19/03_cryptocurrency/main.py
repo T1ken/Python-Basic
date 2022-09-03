@@ -63,3 +63,5 @@ print(data['ETH'])  # 4
 old_price = data['tokens'][1]['sec_token_info'].pop('price')
 data['tokens'][1]['sec_token_info']['total_price'] = old_price
 print(data)   # 5
+
+# зачтено

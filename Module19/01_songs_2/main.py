@@ -18,3 +18,5 @@ for i in range(1, ask_num + 1):
     else:
         print(f'Песни нет в списке')
 print(f'Общее время звучания песен: {round(all_num, 2)} минут')
+
+# зачтено

@@ -11,3 +11,5 @@ while True:
     else:
         all_nums -= guess
 print(*all_nums)
+
+# зачтено

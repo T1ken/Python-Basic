@@ -14,3 +14,5 @@ for i_letter, i_num in sym_dict.items():
     text_dict.setdefault(i_num, []).append(i_letter)
 for i in text_dict:
     print(i, ': ', text_dict[i])
+
+# зачтено

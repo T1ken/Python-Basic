@@ -11,3 +11,5 @@ for i in range(3):
         print(f'Город {city.title()} расположен в стране {country.title()}.')
     else:
         print(f'По городу {city} данных нет.')
+
+# зачтено

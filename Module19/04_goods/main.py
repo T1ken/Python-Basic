@@ -32,3 +32,5 @@ for product_name, product_code in goods.items():
         item_total_cost += item_quantity * item_cost
         item_total_quantity += item_quantity
     print(f'{product_name} - {item_total_quantity} шт, общая стоимость {item_total_cost} рублей')
+
+# зачтено

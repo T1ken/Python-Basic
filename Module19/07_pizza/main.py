@@ -15,3 +15,5 @@ for fio, order in sorted(orders_data.items()):
     print(f'{fio}:')
     for pizza, amount in sorted(order.items()):
         print('\t', pizza, amount)
+
+# зачтено
