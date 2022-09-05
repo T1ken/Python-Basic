@@ -20,23 +20,23 @@ students = {
 }
 
 
-def f(dict):
+def f(dick):
     lst = []
     string = ''
-    for i in dict:
-        lst += (dict[i]['interests'])
-        string += dict[i]['surname']
+    for I in dick:
+        lst += (dick[I]['interests'])
+        string += dick[I]['surname']
     cnt = 0
-    for s in string:
+    for _ in string:
         cnt += 1
     return lst, cnt
 
 
-pairs = []
+pairs = dict()
 for i in students:
-    pairs += (i, students[i]['age'])
-
-
+    pairs[i] = (students[i]['age'])
 my_lst = f(students)[0]
 l = f(students)[1]
-print(my_lst, l)
+print(f'Список пар "ID студента — возраст": {pairs}')
+print(f'Полный список интересов всех студентов: {my_lst}')
+print(f'Общая длина всех фамилий студентов: {l}')
