@@ -23,3 +23,5 @@ while True:
         for k in d.keys():
             if a == k[1]:
                 print(k[0], k[1], d[k])
+
+# зачтено

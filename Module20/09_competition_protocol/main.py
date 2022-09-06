@@ -20,3 +20,5 @@ print('\nИтоги соревнований: ')
 for winner_index in 0, 1, 2:
     print(f'{winner_index + 1} место {scores[winner_index][0]}', end=' ')
     print(f'({scores[winner_index][1][0]})', sep='')
+
+# зачтено

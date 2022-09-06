@@ -5,3 +5,5 @@ players = {
 }
 players_scores = [sum((key, value), ()) for key, value in players.items()]
 print(players_scores)
+
+# зачтено
