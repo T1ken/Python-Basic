@@ -10,3 +10,27 @@ site = {
         }
     }
 }
+
+
+def find_key(struct, key, depth):
+    if depth == 1:
+        if key in struct:
+            return struct[key]
+    if depth > 1:
+        for sub_struct in struct.values():
+            if isinstance(sub_struct, dict):
+                result = find_key(sub_struct, key, depth - 1)
+                if result:
+                    break
+        else:
+            result = None
+        return result
+
+
+user_key = input('Какой ключ ищем? ')
+search_depth = int(input('Введите глубину поиска: '))
+value = find_key(site, user_key, search_depth)
+if value:
+    print(value)
+else:
+    print('Такого ключа в структуре сайта нет.')
