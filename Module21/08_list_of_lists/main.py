@@ -14,3 +14,5 @@ def my_list(*args):
 
 
 print(my_list(nice_list))
+
+# зачтено

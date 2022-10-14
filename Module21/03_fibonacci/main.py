@@ -6,3 +6,5 @@ def fibonacci(n):
 
 ask_num = int(input('Введите позицию числа в ряде Фибоначчи: '))
 print(fibonacci(ask_num))
+
+# зачтено

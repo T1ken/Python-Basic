@@ -14,3 +14,5 @@ def calculating_math_func(data):
 factorials = {1: 1}
 print(calculating_math_func(int(input('Введите число: '))))
 print(sorted(factorials.items()))
+
+# зачтено

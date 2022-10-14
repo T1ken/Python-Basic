@@ -14,3 +14,5 @@ _set = {1, 2, 'a', 'b'}
 all_op = [_list, _dict, _tuple, _string, _set]
 for p in all_op:
     print(myzip(p))
+
+# зачтено

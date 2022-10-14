@@ -4,3 +4,5 @@ def search_num(num):
 
 ask_num = int(input(f'Введите num: '))
 search_num(ask_num)
+
+# зачтено

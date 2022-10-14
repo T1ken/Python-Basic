@@ -32,3 +32,5 @@ for _ in range(number_sites):
         find_key(site, i, key[i])
     print(f'Сайт для {product_name}:')
     pprint(site)
+
+# зачтено
