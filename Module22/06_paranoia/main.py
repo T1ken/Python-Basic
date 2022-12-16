@@ -22,3 +22,6 @@ for line in text_file:
         string = string + caesar(symbol, shift_size)
         caesar_file.write(string + '\n')
         shift_size += 1
+
+# Во первых, алгоритм шифрования не правильный. Повтори, что такое шифр Цезаря. Во вторых, зачем сохранять в файл
+# шифрование каждой буквы отдельно?

@@ -15,3 +15,5 @@ for l_ in list1:
 print(f' str - {len(list1)}')
 print(f' слова - {num}')
 print(f' буквы - {num2}')
+
+# зачтено

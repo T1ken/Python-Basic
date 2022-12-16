@@ -24,3 +24,5 @@ else:
     with open(filename, 'w') as file_object:
         file_object.write(text)
         print(f'Файл успешно сохранён!')
+
+# зачтено

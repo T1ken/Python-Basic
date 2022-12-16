@@ -10,3 +10,5 @@ for i in s:
 file_ = 'answer.txt'
 with open(file_, 'w') as f_:
     f_.write(str(num))
+
+# зачтено

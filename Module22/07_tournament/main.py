@@ -26,3 +26,5 @@ for i in new_list:
 with open("second_tour.txt", "w", encoding='utf-8') as f_out:
     s = '\n'.join(out_lst)
     f_out.write(s)
+
+# зачтено
