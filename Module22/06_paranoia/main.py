@@ -35,3 +35,5 @@ for symbol in y:
 with open('cipher_text.txt', 'w') as file:
     for line in encrypted_string:
         file.write(line + '\n')
+
+# зачтено
