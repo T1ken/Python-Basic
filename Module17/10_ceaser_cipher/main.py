@@ -19,6 +19,7 @@ for symbol in text:
         encrypted_string += ascii_en[get_index(symbol, shift, ascii_en)]
     else:
         encrypted_string += symbol
+    shift += 1
 print(encrypted_string)
 
 # зачтено

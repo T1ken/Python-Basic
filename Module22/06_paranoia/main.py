@@ -1,27 +1,37 @@
-def caesar(letter, shift):
-    alphabet = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvw xyz'
-    if letter.isupper():
-        letter = letter.lower()
-        position = alphabet.find(letter)
-        return alphabet[position + shift].upper()
+h = list()
+y = list()
+shift = 1
+ascii_en = [chr(i) for i in range(ord('a'), ord('z') + 1)]
+encrypted_string = list()
+open('text.txt')
+e = ''
+text_ = 'text.txt'
+with open(text_) as f:
+    l = f.readlines()
+    h.append(l)
+for w in l:
+    y.append(w.rstrip())
+
+
+def get_index(smb, to_right, lst):
+    index = lst.index(smb)
+    if index + to_right > len(lst) - 1:
+        index = index + to_right - len(lst)
     else:
-        letter = letter.lower()
-        position = alphabet.find(letter)
-        return alphabet[position + shift]
+        index += to_right
+    return index
 
 
-text_file = open('text.txt', 'r')
-caesar_file = open('cipher_text.txt', 'w')
-
-shift_size = 1
-for line in text_file:
-    string = ''
-    for symbol in line:
-        if symbol == '\n':
-            break
-        string = string + caesar(symbol, shift_size)
-        caesar_file.write(string + '\n')
-        shift_size += 1
-
-# Во первых, алгоритм шифрования не правильный. Повтори, что такое шифр Цезаря. Во вторых, зачем сохранять в файл
-# шифрование каждой буквы отдельно?
+for symbol in y:
+    symbol = symbol.lower()
+    for i in symbol:
+        if i in ascii_en:
+            e += ascii_en[get_index(i, shift, ascii_en)]
+        else:
+            encrypted_string += symbol
+    encrypted_string.append(e)
+    shift += 1
+    e = ''
+with open('cipher_text.txt', 'w') as file:
+    for line in encrypted_string:
+        file.write(line + '\n')

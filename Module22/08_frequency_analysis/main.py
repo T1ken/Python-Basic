@@ -13,3 +13,4 @@ sout = "\n".join([i[0] + " " + i[1] for i in lout])
 open("analysis.txt", "w").write(sout)
 
 # зачтено (осуждаю)
+# одобряю
