@@ -22,3 +22,5 @@ for letter, amount in dictionary.items():
 q = {k: v for k, v in sorted(list1.items(), key=lambda item: item[1])}
 for k, l in q.items():
     print(k, l)
+
+# зачтено
