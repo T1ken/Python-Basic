@@ -16,3 +16,5 @@ while True:
             file.write(f'{user}: {message}\n')
     else:
         print('Такой команды нет')
+
+# зачтено

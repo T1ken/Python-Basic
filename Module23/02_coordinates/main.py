@@ -30,3 +30,5 @@ for line in data:
         print('Делитель в одном из чисел равен 0')
 with open('result.txt', 'w') as f:
     f.writelines(result)
+
+# зачтено

@@ -9,3 +9,5 @@ with open('people.txt', encoding='UTF-8') as f:
         print(q)
     finally:
         print('Общее количество символов:', size)
+
+# зачтено

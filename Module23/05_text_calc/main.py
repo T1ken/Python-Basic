@@ -9,3 +9,5 @@ with open('calc.txt', 'r') as file:
                 line = input('Введите исправленную строку: ')
                 result.append(eval(line))
 print(f'Сумма результатов: {sum(result)}')
+
+# зачтено
