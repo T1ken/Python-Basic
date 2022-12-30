@@ -1,5 +1,5 @@
 def answer(file_str):
-    name, mail, age = file_str.split('')
+    name, mail, age = file_str.split(' ')
     age = int(age)
     sym = ('@', '.')
     if name.isalpha() is False:
