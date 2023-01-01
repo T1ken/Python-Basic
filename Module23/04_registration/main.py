@@ -21,6 +21,4 @@ with open('registrations.txt', 'r', encoding='utf-8') as file, open('registratio
         else:
             good.write(str_in_file + '\n')
 
-# Я понял почему у тебя файл заполняется строками "empty separator". Это записывается вид ошибки, строка 20. А ошибка
-# возникает на 2 строке, "ValueError: empty separator", вызывается, т.к. в функцию split() ты передаёшь пустой
-# разделитель, пустую строку. Там должен быть как минимум пробел.
+# зачтено
