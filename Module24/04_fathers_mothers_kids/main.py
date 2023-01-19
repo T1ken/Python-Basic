@@ -65,3 +65,5 @@ for i_child in parent.children:
     i_child.child_info()
     parent.soothe_the_child(i_child)
     parent.feed_the_child(i_child)
+
+# Нет проверки на разницу в возрасте между родителем и ребёнком

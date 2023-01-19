@@ -75,3 +75,5 @@ name_garden = input('Введите имя садовника: ')
 my_garden = PotatoGarden(num_potato)
 worker = Gardener(name_garden)
 Gardener.tend(worker, my_garden)
+
+# пофикси баг с выведением состояния картошки

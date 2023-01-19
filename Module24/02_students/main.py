@@ -22,3 +22,5 @@ for i in range(0, 2):
 
 sort = sorted(students, key=lambda student: student.average_score())
 print(*sort, sep='\n')
+
+# зачтено

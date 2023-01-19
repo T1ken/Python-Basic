@@ -20,3 +20,5 @@ class Circle:
 
     def is_intersect(self, other):
         return (self.x - other.x) ** 2 + (self.y - other.y) ** 2 <= (self.r + other.r) ** 2
+
+# зачтено

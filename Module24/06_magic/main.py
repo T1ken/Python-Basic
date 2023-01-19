@@ -97,3 +97,5 @@ a = Lightning()
 s = f + a
 
 print(f"Смешиваем '{f.title}' c '{a.title}' и получаем '{s.title}'")
+
+# зачтено

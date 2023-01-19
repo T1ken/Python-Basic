@@ -141,3 +141,5 @@ class TicTacToeBoard:
             return self.end_info
         else:
             return 'Клетка ' + str(row) + ', ' + str(col) + ' уже занята'
+
+# Ага круто, а теперь сделай ещё чтобы в неё можно было играть пж
