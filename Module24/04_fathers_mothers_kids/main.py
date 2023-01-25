@@ -47,6 +47,9 @@ class Parent:
         else:
             print(f'{child.name} сыт ')
 
+    def age_difference(self):
+        print(f'Разница в возрасте {self.name} и {child_Name} - {self.age - child_Age}')
+
 
 parentName = input('Как зовут родителя? ')
 parentAge = int(input(f'Сколько {parentName} лет? '))
@@ -65,5 +68,6 @@ for i_child in parent.children:
     i_child.child_info()
     parent.soothe_the_child(i_child)
     parent.feed_the_child(i_child)
+    parent.age_difference()
 
 # Нет проверки на разницу в возрасте между родителем и ребёнком

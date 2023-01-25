@@ -1,5 +1,5 @@
 class Potato:
-    states = {0: 'Отсутствует', 1: 'Росток', 2: 'Зеленая', 3: 'Зрелая'}
+    states = {0: 'отсутствует', 1: 'росток', 2: 'зеленая', 3: 'зрелая'}
 
     def __init__(self, index):
         self.index = index
@@ -16,13 +16,14 @@ class Potato:
         return False
 
     def print_state(self):
-        print(f'Картошка {self.index} сейчас {self.state}')
+        print(f'Картошка {self.index} сейчас {self.states[self.state]}')
 
 
 class PotatoGarden:
 
     def __init__(self, count):
         self.potatoes = [Potato(index) for index in range(1, count + 1)]
+
     def grow_all(self):
         print('Картошка прорастает! ')
         for i_potato in self.potatoes:

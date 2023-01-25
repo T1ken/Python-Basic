@@ -48,9 +48,6 @@ class BlackJack:
                     print('Вы победили! Поздравляю, ваш приз АВТОМОБИЛЬ "звуки Якубовича"')
                     break
             elif choice == 'нет':
-                if score > bot_score and bot_score < 19:
-                    while bot_score < 19:
-                        bot_score = self.random_card(bot_score, True)
                 if score < bot_score <= 21:
                     print(f'Вы проиграли, у вас {score} очков, у крупье {bot_score} очков')
                 else:
