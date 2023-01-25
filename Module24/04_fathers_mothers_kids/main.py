@@ -1,5 +1,5 @@
 import random
-
+import sys
 
 class Child:
     calm_states = {0: 'спокоен ', 1: 'плачет '}
@@ -47,8 +47,6 @@ class Parent:
         else:
             print(f'{child.name} сыт ')
 
-    def age_difference(self):
-        print(f'Разница в возрасте {self.name} и {child_Name} - {self.age - child_Age}')
 
 
 parentName = input('Как зовут родителя? ')
@@ -57,6 +55,8 @@ parent = Parent(parentName, parentAge, children=[], children_count=0)
 
 child_Name = input('Как зовут ребенка? ')
 child_Age = int(input(f'Сколько {child_Name} лет? '))
+if parentAge - child_Age < 16:
+    sys.exit()
 child_1 = Child(child_Name, child_Age)
 parent.children.append(child_1)
 parent.children_count += 1
@@ -68,6 +68,5 @@ for i_child in parent.children:
     i_child.child_info()
     parent.soothe_the_child(i_child)
     parent.feed_the_child(i_child)
-    parent.age_difference()
 
 # Не нужно выводить разницу в возрасете. Надо закрывать программу после ввода возраста, если разница будет меньше 16 лет
