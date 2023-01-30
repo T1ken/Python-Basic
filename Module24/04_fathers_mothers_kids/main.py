@@ -69,4 +69,4 @@ for i_child in parent.children:
     parent.soothe_the_child(i_child)
     parent.feed_the_child(i_child)
 
-# Не нужно выводить разницу в возрасете. Надо закрывать программу после ввода возраста, если разница будет меньше 16 лет
+# зачтено
