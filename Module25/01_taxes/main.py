@@ -14,7 +14,7 @@ class Property:
         return self.__worth
 
     def tax(self):
-        return self.__worth   # какой мудак придумал именно два подчеркивания
+        return self.__worth   # какой мудак придумал именно два подчеркивания (ооп классный раздел программирования:) )
 
 
 class CountryHouse(Property):
@@ -38,7 +38,7 @@ class Apartment(Property):
 
 
 class Car(Property):
-    name = 'Сar'   # мы англичане, хули
+    name = 'Сar'   # мы англичане, хули (лондон ис зе кэпитал оф грейт британ)
 
     def __init__(self, worth):
         super().__init__(worth)
@@ -53,7 +53,9 @@ for elem in tax_list:
     sum_nalog += elem.tax()
 print(f'Сумма налога составила {sum_nalog}')
 if sum_nalog > amount_money:
-    print(f'Вам не хватает {sum_nalog - amount_money} для оплаты налогов') # чувствую себя мразью когда пишу такие коды, мне жаль людей, которые видят такое
+    print(f'Вам не хватает {sum_nalog - amount_money} для оплаты налогов') # чувствую себя мразью когда пишу такие коды, мне жаль людей, которые видят такое (привыкай, хз где работать придётся)
 # А вроде мне плевать, двоякое чувство
 else:
     print(f"У вас получилось, осталось {amount_money - sum_nalog} наличных")
+
+# зачтено

@@ -147,3 +147,5 @@ for i in range(365):
             wife.buy_food()
         elif House.cat_food <= 20:
             wife.buy_cat_food()
+
+# зачтено                                                                                                               R.I.P. Наташа

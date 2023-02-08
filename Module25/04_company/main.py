@@ -64,3 +64,5 @@ if __name__ == '__main__':
         employees.append(worker)
     for emp in employees:
         print(emp)
+
+# зачтено

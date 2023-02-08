@@ -48,3 +48,5 @@ class Bus(Car):
             f'У водителя {round(self.money, 2)} денег',
         ]
         return '\n'.join(lines)
+
+# зачтено
