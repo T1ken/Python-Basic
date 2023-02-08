@@ -39,18 +39,23 @@ while True:
             raise list1[k]
 
         except KillError:
+            print('Ай ай ай ай убили негра, убили негра')
             break
 
         except DrunkError:
+            print('Сдох потому что много пил')
             break
 
         except CarCrashError:
+            print('Въебался в дерево потому что смотрел аниме за рулем, аниме убивает')
             break
 
         except GluttonyError:
+            print('Помер и помер, че бубнить')
             break
 
         except DepressionError:
+            print('Умер от депрессии')
             break
 
     if karma == 500:
