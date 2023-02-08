@@ -39,20 +39,19 @@ while True:
             raise list1[k]
 
         except KillError:
-            karma -= 100
+            break
 
         except DrunkError:
-            karma -= 10
+            break
 
         except CarCrashError:
-            karma = 0
+            break
 
         except GluttonyError:
-            karma -= 5
+            break
 
         except DepressionError:
-            karma -= 50
-        print(list1[k].__name__)
+            break
 
     if karma == 500:
         break
