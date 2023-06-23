@@ -17,3 +17,6 @@ def count_lines(directory):
 
 for lines in count_lines('C:/Users/nana/PycharmProjects/pythonProject9'):
     print(lines)
+
+# зачтено
+# P.S. офигеть, он yield использовал, оказывается для этого нужно в тз уточнять

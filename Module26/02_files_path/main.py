@@ -21,3 +21,4 @@ print(f'\nПути всех файлов\n')
 if not gen_files_path(folder_search, path_search):
     print(f'\nКаталог {folder_search} не найден')
 
+# Тебе для чего yield? У тебя модуль чему посвящён? Пофиг, зачтено
